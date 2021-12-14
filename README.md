@@ -1,19 +1,25 @@
 # CoinOpsX_Favorites_plugin
-Powershell Script that will watermark the logos of games in your favorite file.
-
-
+  Powershell Script that will watermark the logos of games in your favorite file.
+  example
+  ![alt text](https://github.com/chippon/CoinOpsX_Favorites_plugin/raw/main/example_Athena.png?raw=true)
+  
+  - The main reason I made this script was to highlight games I already had favoriated without having to flip back to the favoraite page or risk removing it from the list.
   Requires application "Image Magick" (https://imagemagick.org/index.php) which will be downloaded and installed if not found.
   Also requires a watermark which I have named star.png (also will download if not found)
   
   ![alt text](https://github.com/chippon/CoinOpsX_Favorites_plugin/raw/main/star.png?raw=true)
   
-  Once ran it will scan for the favoirate file in the corerct location on all drives. (ex. F:\cox\playlists\favorites.txt)
-  If the scripts finds more then 1 suitable location it will prompt you which drive to use.
+  Once ran it will scan for the favoirate file in the corerct location on all drives. (ex. F:\cox\playlists\favorites.txt) 
+  
+  If the script finds more then 1 suitable location it will prompt you which drive to use.
+  
+  After it has been ran once the script will backup the star.png and the CoinOpsX_Favorites_plugin.ps1 powershell script to the folder \CoinOPsX_favorites_plugin\ on the drive that was worked on (ex. F:\CoinOPsX_favorites_plugin) 
 
-  After it has been ran once the script will copy the star.png and the CoinOpsX_Favorites_plugin.ps1 powershell script to the folder \CoinOPsX_favorites_plugin\ on the drive that   was worked on (ex. F:\CoinOPsX_favorites_plugin)
+ Backups of unaltered logos are stored in the zip file located at \CoinOPsX_favorites_plugin\backup\backup.zip
+  
+  Final note: If you change your fav list, just run the script again and it will restore all the non-edited logos removing all watermarks and then watermark the files from your new favoriates file. 
 
-  Backups are taken in \CoinOPsX_favorites_plugin\backup\
-
+  Final final note: I did not include a restore function as of right now. (maybe if someone asks) But you can simply copy the files from inside the zip backup that is taken located at \CoinOPsX_favorites_plugin\backup\backup.zip to your \cox\logo\ directory. Then for final cleanup delete the \CoinOPsX_favorites_plugin\ folder.
 
 
 
