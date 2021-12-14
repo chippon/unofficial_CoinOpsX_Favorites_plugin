@@ -9,8 +9,6 @@
   Requires application "Image Magick" (https://imagemagick.org/index.php) which will be downloaded and installed if not found.
   Also requires a watermark which I have named star.png (also will download if not found)
   
-  ![alt text](https://github.com/chippon/CoinOpsX_Favorites_plugin/raw/main/star.png?raw=true)
-  
   Once ran it will scan for the favoirate file in the corerct location on all drives. (ex. F:\cox\playlists\favorites.txt) 
   
   If the script finds more then 1 suitable location it will prompt you which drive to use.
