@@ -10,7 +10,9 @@
   (also will download if not found)
 # To start just run the .ps1 file itself.
  
-  Once ran it will scan for image magick and prompt you if you would like to proceed with installing the software if not found. Then will the script will scan for the favorite file in the corerct location on all drives. (ex. F:\cox\playlists\favorites.txt) (see notes below for when you update your fav file)
+  Once ran it will scan for image magick and prompt you if you would like to proceed with installing the software if not found. Then will the script will scan for the favorite file in the corerct location on all drives. (ex. F:\cox\playlists\favorites.txt) 
+  
+  (see notes below for when you update your fav file)
   
   - If the script finds more then 1 suitable location it will prompt you which drive to use.
 
