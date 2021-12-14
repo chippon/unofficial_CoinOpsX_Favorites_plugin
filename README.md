@@ -1,6 +1,8 @@
 # CoinOpsX_Favorites_plugin
   Powershell Script that will watermark the logos of games in your favorite file.
-  example
+  - example
+
+
   ![alt text](https://github.com/chippon/CoinOpsX_Favorites_plugin/raw/main/example_Athena.png?raw=true)
   
   - The main reason I made this script was to highlight games I already had favoriated without having to flip back to the favoraite page or risk removing it from the list.
