@@ -9,9 +9,11 @@
   Requires application "Image Magick" (https://imagemagick.org/index.php) which will be downloaded and installed if not found.
   Also requires a watermark which I have named star.png (also will download if not found)
   
-  Once ran it will scan for the favoirate file in the corerct location on all drives. (ex. F:\cox\playlists\favorites.txt) 
+  Once ran it will scan for image magick and prompt you if you would like to proceed with installing the software if not found. Then will the script will scan for the favorite file in the corerct location on all drives. (ex. F:\cox\playlists\favorites.txt) 
   
   If the script finds more then 1 suitable location it will prompt you which drive to use.
+
+  The script should then run and finish up on its own. Once done you can just plug the flash card into the Legends Ultimate and your logos will be updated.
   
   After it has been ran once the script will backup the star.png and the CoinOpsX_Favorites_plugin.ps1 powershell script to the folder \CoinOPsX_favorites_plugin\ on the drive that was worked on (ex. F:\CoinOPsX_favorites_plugin) 
 
@@ -19,7 +21,7 @@
   
   Final note: If you change your fav list, just run the script again and it will restore all the non-edited logos removing all watermarks and then watermark the files from your new favoriates file. 
 
-  Final final note: I did not include a restore function as of right now. (maybe if someone asks) But you can simply copy the files from inside the zip backup that is taken located at \CoinOPsX_favorites_plugin\backup\backup.zip to your \cox\logo\ directory. Then for final cleanup delete the \CoinOPsX_favorites_plugin\ folder.
+  Final final note: I did not include a restore function as of right now. (maybe if someone asks) But you can simply copy the files from inside the zip backup that is taken located at \CoinOPsX_favorites_plugin\backup\backup.zip to your \cox\logo\ directory. Then for final cleanup delete the \CoinOPsX_favorites_plugin\ folder and uninstall image magick from windows like you would other programs.
 
 
 
