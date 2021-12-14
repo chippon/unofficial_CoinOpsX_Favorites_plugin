@@ -6,15 +6,17 @@
   example
 # Requires application "Image Magick" 
   (https://imagemagick.org/index.php) which will be downloaded and installed if not found.
-# Also requires a watermark which I have named star.png (also will download if not found)
-  - to start just run the .ps1 file itself.
-  Once ran it will scan for image magick and prompt you if you would like to proceed with installing the software if not found. Then will the script will scan for the favorite file in the corerct location on all drives. (ex. F:\cox\playlists\favorites.txt) 
+# Also requires a watermark which I have named star.png 
+  (also will download if not found)
+# To start just run the .ps1 file itself.
+ 
+  Once ran it will scan for image magick and prompt you if you would like to proceed with installing the software if not found. Then will the script will scan for the favorite file in the corerct location on all drives. (ex. F:\cox\playlists\favorites.txt) (see notes below for when you update your fav file)
   
   - If the script finds more then 1 suitable location it will prompt you which drive to use.
 
   The script should then run and finish up on its own. Once done you can just plug the flash card into the Legends Ultimate and your logos will be updated.
   
-  note: After it has been ran once the script will backup the star.png and the CoinOpsX_Favorites_plugin.ps1 powershell script to the folder \CoinOPsX_favorites_plugin\ on the drive that was worked on (ex. F:\CoinOPsX_favorites_plugin). Backups of unaltered logos are stored in the zip file located at \CoinOPsX_favorites_plugin\backup\backup.zip.
+  note: After it has been ran once the script will backup the star.png and the CoinOpsX_Favorites_plugin.ps1 powershell script to the folder \CoinOPsX_favorites_plugin\ on the drive that was worked on (ex. F:\CoinOPsX_favorites_plugin). So next run you can find the script on your flash card and use it on other computers. Backups of unaltered logos are stored in the zip file located at \CoinOPsX_favorites_plugin\backup\backup.zip.
   
   Final note: If you change your fav list, just run the script again and it will restore all the non-edited logos removing all watermarks and then watermark the files from your updated favoriates file. 
 
