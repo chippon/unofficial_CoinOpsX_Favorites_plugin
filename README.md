@@ -1,10 +1,13 @@
-# CoinOpsX_Favorites_plugin
-  Powershell Script that will watermark the logos of games in your favorite file.
-  - example
+# UNOFFICAL CoinOpsX_Favorites_plugin
+  - I am in no way afflicated with the CoinOpsX crew or any party involved. Just like writing scripts :)
 
+
+  - This Powershell Script will watermark the logos of games in your favorite file. Figured i'd share in case anyone could use it.
+  
 
   ![alt text](https://github.com/chippon/CoinOpsX_Favorites_plugin/raw/main/example.gif?raw=true)
-  
+  - example
+
   - The main reason I made this script was to highlight games I already had favoriated without having to flip back to the favoraite page or risk removing it from the list.
   - Requires application "Image Magick" (https://imagemagick.org/index.php) which will be downloaded and installed if not found.
   Also requires a watermark which I have named star.png (also will download if not found)
