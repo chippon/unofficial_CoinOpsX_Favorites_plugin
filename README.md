@@ -6,7 +6,7 @@
   ![alt text](https://github.com/chippon/CoinOpsX_Favorites_plugin/raw/main/example.gif?raw=true)
   
   - The main reason I made this script was to highlight games I already had favoriated without having to flip back to the favoraite page or risk removing it from the list.
-  Requires application "Image Magick" (https://imagemagick.org/index.php) which will be downloaded and installed if not found.
+  - Requires application "Image Magick" (https://imagemagick.org/index.php) which will be downloaded and installed if not found.
   Also requires a watermark which I have named star.png (also will download if not found)
   
   Once ran it will scan for image magick and prompt you if you would like to proceed with installing the software if not found. Then will the script will scan for the favorite file in the corerct location on all drives. (ex. F:\cox\playlists\favorites.txt) 
@@ -25,7 +25,7 @@
 
 
 
-Steps taken
+Steps taken by the script
 - [1/13] Looking for drives with CoinOpX favoriate files
 - [2/13] verifying image magik is installed
 - [3/13] finding/creating CoinOpsX_favorites_plugin program path at \CoinOpsX_favorites_plugin\
