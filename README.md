@@ -3,7 +3,7 @@
   - example
 
 
-  ![alt text](https://github.com/chippon/CoinOpsX_Favorites_plugin/raw/main/example_Athena.png?raw=true)
+  ![alt text](https://github.com/chippon/CoinOpsX_Favorites_plugin/raw/main/example.gif?raw=true)
   
   - The main reason I made this script was to highlight games I already had favoriated without having to flip back to the favoraite page or risk removing it from the list.
   Requires application "Image Magick" (https://imagemagick.org/index.php) which will be downloaded and installed if not found.
