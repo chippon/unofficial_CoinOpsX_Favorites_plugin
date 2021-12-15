@@ -1,5 +1,5 @@
 # UNOFFICAL CoinOpsX_Favorites_plugin
-  - I am in no way afflicated with the CoinOpsX crew or any party involved. Just like writing scripts :)
+  - I am in no way affiliated with the CoinOpsX crew or any party involved. Just like writing scripts :)
   - This Powershell Script will watermark the logos of games in your favorite file. Figured i'd share in case anyone could use it.
   ![alt text](https://github.com/chippon/CoinOpsX_Favorites_plugin/raw/main/example.gif?raw=true)
   
