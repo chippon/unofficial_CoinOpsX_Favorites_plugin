@@ -61,7 +61,7 @@ function Check_Image_Magik {
     if (Get-Command magick -erroraction silentlycontinue) {
     }
     else {
-        $magick_dl_page = Invoke-WebRequest -Uri https://imagemagick.org/script/download.php
+        $magick_dl_page = Invoke-WebRequest -UseBasicParsing -Uri https://imagemagick.org/script/download.php
         if ( [IntPtr]::size -eq 8 ) {
             $url = $magick_dl_page.Links.href | Where-Object { $_ -like “*-Q16-HDRI-x64-dll.exe” } | Get-Unique
         }
