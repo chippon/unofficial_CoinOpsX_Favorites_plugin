@@ -40,3 +40,5 @@ Steps taken by the script
 - [11/13] Creating Watermark logos
 - [12/13] Moving WaterMarked logos
 - [13/13] cleaining up --- removing compress list file and fav logoer local temp location
+
+(i bet this would of been easier in bash)
